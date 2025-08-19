@@ -13961,4 +13961,7 @@ span a {
     margin-top: 15px;
     height: 50vh;
   }
+  .about-section {
+    padding-top: 50px;
+  }
 }
