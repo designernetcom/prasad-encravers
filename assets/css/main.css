@@ -9219,11 +9219,12 @@ span a {
 }
 .blog-card.style3 {
   border-radius: 20px;
-  border: 2px solid #ef7f1a;
+  /* border: 2px solid #ef7f1a; */
   border-radius: 20px;
   background: #fff;
-  padding: 10px;
+  /* padding: 10px; */
   position: relative;
+  box-shadow: 10px 10px 5px #f0842161;
 }
 .blog-card.style3 .thumb a img {
   max-width: 100%;
@@ -9271,7 +9272,7 @@ span a {
   }
 }
 .blog-card.style3 .content .title h3 a {
-  color: var(--title);
+  color: #ef7f1a;
 }
 @media (max-width: 1199px) {
   .blog-card.style3 .content .title h3 a {
@@ -13962,6 +13963,6 @@ span a {
     height: 50vh;
   }
   .about-section {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 }
