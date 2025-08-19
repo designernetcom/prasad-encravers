@@ -13956,3 +13956,9 @@ span a {
 .row2 {
   margin-top: 5px;
 }
+@media screen and (max-width: 480px){
+  .banner {
+    margin-top: 15px;
+    height: 40vh;
+  }
+}
